@@ -8,7 +8,7 @@ ap = argparse.ArgumentParser()
 ap.add_argument(
   "--input_file",
   type=str,
-  default='inputColors.txt'
+  default='colors.txt'
 )
 
 ap.add_argument(
@@ -55,13 +55,13 @@ def distBetweenColors(col1, col2):
 
     return math.sqrt((col1[0]-col2[0])**2 + (col1[1]-col2[1])**2 + (col1[2]-col2[2])**2)
 
-closest_color = 0
+closest_color = ""
 closest_dist = 1e+8
 
-for i, template_color in enumerate(template_colors):
+for template_color, template_value in template_colors.items():
     dist = distBetweenColors(template_colors[template_color], color)
     if dist < closest_dist:
-        closest_color = i
+        closest_color = template_color
         closest_dist = dist
 
 max_dist = 0

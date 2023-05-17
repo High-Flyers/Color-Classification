@@ -1,3 +1,0 @@
-red: original=[255,0,0] detected=[248,51,4]
-green: original=[0,255,0] detected=[131,234,100]
-blue: original=[0,0,255] detected=[14,76,241]

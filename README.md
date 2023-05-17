@@ -209,9 +209,6 @@ python3 classifyColor.py --input_file colors.txt --color [67,68,69] --method rgb
   
 
 # How it works <a name="how-it-works"></a>
-
-  
-
 Board generation is done using OpenCV. Aruco markers are placed in specific order (by ID) so we know which marker is in which corner. Input colors are generated from the top to the bottom (order is the same as in console input array).
 
   
