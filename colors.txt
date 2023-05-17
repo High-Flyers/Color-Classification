@@ -1,0 +1,3 @@
+podatny_na_choroby: original=[147,107,76]
+parch: original=[212,159,65]
+maczniak: original=[249,246,227]

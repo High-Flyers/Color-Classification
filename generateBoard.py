@@ -19,7 +19,7 @@ ap.add_argument(
   "--input_file",
   type=str,
   required=False,
-  default='./inputColors.txt'
+  default='./colors.txt'
 )
 
 args = vars(ap.parse_args())
